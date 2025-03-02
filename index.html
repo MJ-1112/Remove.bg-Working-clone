@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove.bg Clone</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="div">
+                    <img src="Assets\Logo.png" alt="logo" style="width: 180px; height: 48px;">
+                </div>
+
+            </div>
+            <nav>
+                <a href="#">Remove Background</a>
+                <a href="#" class="dropdown">Features</a>
+                <a href="#" class="dropdown">For Business</a>
+                <a href="#">Pricing</a>
+            </nav>
+        </header>
+        
+        <div class="main-content">
+            <div class="left-section">
+                <video controls autoplay loop style="width:320px; height: 210px; border-radius: 15px;">
+                <source src="Assets\Intro.mp4" type="video/mp4" ></video>
+                
+                <h1 class="heading">Remove Image Background</h1>
+            </div>
+            
+            <div class="right-section">
+                <div class="upload-box">
+                    <input type="file" hidden id="fileupload">
+                <button class="upload-button" onclick="uploader()">Upload Image</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

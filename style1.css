@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #FEFEFE;
+    color: #444;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 72px;
+}
+
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4f5b66;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.dropdown:after {
+    content: "▼";
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+/* Main content styles */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.demo-image {
+    width: 100%;
+    max-width: 500px;
+}
+
+.heading {
+    font-size: 64px;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.1;
+    margin-top: 50px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-box {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.upload-button {
+    background-color: #0076ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.upload-button:hover {
+    background-color: #0062d1;
+}
+
+.upload-text {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.upload-options {
+    color: #888;
+    font-size: 16px;
+}
+
